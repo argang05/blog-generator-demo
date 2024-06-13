@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    .blogForm{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: black;
+        label{
+            font-weight: bold;
+            font-size: 16px;
+        }
+        input{
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+        }
+        button{
+            padding: 15px;
+            font-weight: bold;
+            font-size: 17px;
+            border: none;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            background-color: black;
+            &:hover{
+                background-color: rgb(54, 54, 54);
+            }
+        }
+
+    }
+    .blogContainer{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: black;
+        border: none;
+        color: #fff;
+        border-radius: 15px;
+        padding: 20px;
+        .authorContainer{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+    }
+
+}
+.avatarUploadContainer{
+    display: flex;
+    align-items: center;
+}
+.avatarImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
